@@ -41,7 +41,7 @@ export const Game = () => {
 
   return (
     <>
-      <h1>REACT TAC TOES - Proudly sponsored by React Hoooks</h1>
+      <h1>Tic Tac Toe by E4anyi inc </h1>
       <Board squares={history[stepNumber]} onClick={handleClick} />
       <div className="info-wrapper">
         <div>
